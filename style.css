@@ -1,0 +1,68 @@
+html{
+	scroll-behavior: smooth;
+}
+header{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 100px;
+	color: #ffff66;
+}
+body{
+	background-image: url("thailand.jpg");
+}
+ul>li{
+	float: left;
+	margin: 10px;
+	padding: 20px;
+}
+nav{
+	display: block;
+	height: 80px;
+	background-color: #abff1c;
+}
+ul>li:hover{
+	background-color: #e8998f;
+}
+ul>li>a{
+	text-decoration: none;
+	color: black;
+}
+section{
+	margin: 100px;
+	font-family: 'Grand Hotel', cursive;
+	font-size: 30px;
+}
+img{
+	width: 50%;
+}
+#climate{
+	background-color: rgba(255, 51, 0,0.7);
+	padding:50px;
+}
+#food{
+	background-color: rgba(0, 139, 139,0.7);
+	padding:40px;
+	color: white;
+}
+#ts{
+	background-color: rgba(255, 215, 0,0.7);
+	padding:20px;
+}
+footer{
+	background-color: rgba(240, 200, 210,1);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+@media only screen and (max-width: 700px){
+	ul>li{
+		float: none;
+	}
+	nav{
+		height: 200px;
+	}
+	img{
+		width: 70%;
+	}
+	section{
+		font-size: 26px;
+	}
+}
